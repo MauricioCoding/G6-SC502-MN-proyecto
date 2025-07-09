@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/login.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <title>Login</title>
+</head>
+<body>
+    
+     <div class="container">
+            <div class="login">
+                <img class="logo" src="./assets/images/image.png"
+                alt="">
+                <H2>Ingrese sus credenciales</H2>
+                <form action="login" method="post">
+                    <div class="form">
+                        <input type="email" name="email"
+                        placeholder="Correo Electronico"
+                        required="">
+                    </div>
+                    <div class="form">
+                        <input type="password" name="password"
+                        placeholder="Contraseña"
+                        required="">
+                    </div>
+                    <div>
+                        <p>¿Olvido su contraseña?</p>
+                    </div>
+                    <button onclick="window.location.href='pagina2.html'" class="btn-login" type="submit">
+                        Iniciar sesion
+                    </button>
+                </form>
+            </div>
+    </div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
