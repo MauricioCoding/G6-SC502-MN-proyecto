@@ -1,0 +1,15 @@
+================= FACTURA =================
+Factura ID:       2
+Venta ID:         2
+Fecha Emisión:    2025-08-13 10:10:03
+Cliente:          Ana González López
+Cédula / Correo:  87654321 / ana@cliente.com
+-------------------------------------------
+DETALLE:
+- (1) Piedra Decorativa Amarilla  x4  @ 16.00  = 64.00
+- (2) Enchape Cerámico Azul  x4  @ 25.00  = 100.00
+-------------------------------------------
+SUBTOTAL: 164.00
+IVA:      21.32
+TOTAL:    185.32
+===========================================
